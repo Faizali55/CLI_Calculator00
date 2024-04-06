@@ -27,16 +27,16 @@ while (loop) {
     const operator = Userinput.operator;
     if (num1 && num2) {
         if (operator === "Addition") {
-            console.log(chalk.yellow.underline(`\nThe Answer Is ${num1}+${num2}=${num1 + num2}\n`));
+            console.log(chalk.yellow.underline(`\nThe Answer Is ${num1} + ${num2} = ${num1 + num2}\n`));
         }
         else if (operator === "Subtraction") {
-            console.log(chalk.yellow.underline(`\nThe Answer Is ${num1}-${num2}=${num1 - num2}\n`));
+            console.log(chalk.yellow.underline(`\nThe Answer Is ${num1} - ${num2} = ${num1 - num2}\n`));
         }
         else if (operator === "Multipilication") {
-            console.log(chalk.yellow.underline(`\nThe Answer Is ${num1}*${num2}=${num1 * num2}\n`));
+            console.log(chalk.yellow.underline(`\nThe Answer Is ${num1} * ${num2} = ${num1 * num2}\n`));
         }
         else if (operator === "Division") {
-            console.log(chalk.yellow.underline(`\nThe Answer Is ${num1}/${num2}=${num1 / num2}\n`));
+            console.log(chalk.yellow.underline(`\nThe Answer Is ${num1} / ${num2} = ${num1 / num2}\n`));
         }
     }
     else {
