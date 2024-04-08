@@ -1,6 +1,6 @@
 {
-  "name": "ffaizi9_cli_calculator00",
-  "version": "1.0.0",
+  "name": "ffaiz-cli-calculator",
+  "version": "2.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
